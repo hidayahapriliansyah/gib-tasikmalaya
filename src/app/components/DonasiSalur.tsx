@@ -47,7 +47,7 @@ const DonasiSalur = () => {
           </li>
         </motion.ul>
       </div>
-      <div className='relative rounded-xl overflow-hidden'>
+      <div className='relative rounded-xl overflow-hidden w-full'>
         <div className='absolute h-full w-16 bg-gradient-to-r from-background to-transparent top-0 left-0 z-50 pointer-events-none'></div>
         <div className='absolute h-full w-16 bg-gradient-to-r from-transparent to-background top-0 right-0 z-50 pointer-events-none'></div>
         <ImageSlider />
