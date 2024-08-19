@@ -43,8 +43,8 @@ const Hero = () => {
           />
         </motion.div>
       </div>
-      <div className="absolute top-10 lg:-top-10 left-16 lg:-left-72 -z-10 w-[180%] lg:w-[70%] aspect-square bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/30 via-[rgba(255,255,255,0)] to-[rgba(255,255,255,0)] flex justify-center items-center" />
-      <div className="absolute -top-80 -right-72 -z-10 w-[80%] aspect-square bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/20 via-[rgba(255,255,255,0)] to-[rgba(255,255,255,0)] flex justify-center items-center" />
+      <div className="hidden absolute top-10 lg:-top-10 left-16 lg:-left-72 -z-10 w-[180%] lg:w-[70%] aspect-square bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/30 via-[rgba(255,255,255,0)] to-[rgba(255,255,255,0)] md:flex justify-center items-center" />
+      <div className="hidden absolute -top-80 -right-72 -z-10 w-[80%] aspect-square bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/20 via-[rgba(255,255,255,0)] to-[rgba(255,255,255,0)] md:flex justify-center items-center" />
     </section>
   )
 }

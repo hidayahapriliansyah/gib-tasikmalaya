@@ -52,7 +52,7 @@ const Paskas = () => {
           className='aspect-square object-cover rounded-xl hover:scale-105 transition-all duration-300'
         />
       </div>
-      <div className="absolute top-24 lg:-bottom-96 right-0 lg:-right-96 -z-10 w-[100%] aspect-square bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/30 via-[rgba(255,255,255,0)] to-[rgba(255,255,255,0)] flex justify-center items-center" />
+      <div className="hidden absolute top-24 lg:-bottom-96 right-0 lg:-right-96 -z-10 w-[100%] aspect-square bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/30 via-[rgba(255,255,255,0)] to-[rgba(255,255,255,0)] md:flex justify-center items-center" />
     </section>
   )
 }
