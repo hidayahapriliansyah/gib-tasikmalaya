@@ -51,24 +51,24 @@ const NavbarMobile = () => {
             />
           </a>
         </li>
-        <li className={clsx({
-          'border-b-2 border-b-primary': currentPath === ''
+        <li className={clsx('hover:border-b-2 hover:border-b-primary', {
+          'border-b-2 border-b-primary font-bold': currentPath === ''
         })}>
-          <a href="/" className={clsx('text-lg', {
+          <a href="/" className={clsx('text-base', {
             'font-bold text-primary': currentPath === ''
           })}>Beranda</a>
         </li>
-        <li className={clsx({
-          'border-b-2 border-b-primary': currentPath === 'about'
+        <li className={clsx('hover:border-b-2 hover:border-b-primary', {
+          'border-b-2 border-b-primary font-bold': currentPath === 'about'
         })}>
-          <a href="/" className={clsx('text-lg', {
+          <a href="/" className={clsx('text-base', {
             'font-bold  text-primary': currentPath === 'about'
           })}>Tentang</a>
         </li>
-        <li className={clsx({
-          'border-b-2 border-b-primary': currentPath === 'contact'
+        <li className={clsx('hover:border-b-2 hover:border-b-primary', {
+          'border-b-2 border-b-primary font-bold': currentPath === 'contact'
         })}>
-          <a href="/" className={clsx('text-lg', {
+          <a href="/" className={clsx('text-base', {
             'font-bold text-primary': currentPath === 'contact'
           })}>Kontak</a>
         </li>
