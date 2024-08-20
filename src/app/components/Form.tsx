@@ -9,7 +9,7 @@ import { motion, useInView } from 'framer-motion'
 const Form = () => {
   const [name, setName] = useState('')
   const ref = useRef(null)
-  const inView = useInView(ref)
+  const inView = useInView(ref, { once: true })
 
   const router = useRouter();
   const handleSubmit = () => {

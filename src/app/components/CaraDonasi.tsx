@@ -5,7 +5,7 @@ import { motion, useInView } from 'framer-motion'
 
 const CaraDonasi = () => {
   const ref = useRef(null)
-  const inView = useInView(ref)
+  const inView = useInView(ref, { once: true })
 
   return (
     <section className='relative w-full p-8 lg:py-16 lg:px-8'>

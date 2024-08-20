@@ -6,7 +6,7 @@ import { motion, useInView } from 'framer-motion'
 
 const DonasiSalur = () => {
   const ref = useRef(null)
-  const inView = useInView(ref)
+  const inView = useInView(ref, { once: true })
 
   return (
     <section className='flex flex-col items-center gap-2 w-full p-8 lg:py-16 lg:px-8'>
