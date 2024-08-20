@@ -13,7 +13,7 @@ const Form = () => {
 
   const router = useRouter();
   const handleSubmit = () => {
-    router.push(`https://api.whatsapp.com/send?phone=6282315317359&text=Assalamualaikum%2C%20Kak.%0ASaya%20${name}.%20Saya%20ingin%20berinfaq%20untuk%20saya%20dan%20keluarga%20saya.%20Mohon%20kirimkan%20nomor%20rekening%20nya%20ya%2C%20kak.`)
+    router.push(`https://api.whatsapp.com/send?phone=6282120836161&text=Assalamualaikum%2C%20Kak.%0ASaya%20${name}.%20Saya%20ingin%20berinfaq%20untuk%20saya%20dan%20keluarga%20saya.%20Mohon%20kirimkan%20nomor%20rekening%20nya%20ya%2C%20kak.`)
   }
 
   return (
