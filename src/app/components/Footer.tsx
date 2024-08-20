@@ -24,32 +24,58 @@ const Footer = () => {
           <div className='w-full'>
             <span className='font-semibold text-primary'>Kontak Kami</span>
             <ul className='flex flex-col gap-1 mt-2'>
-              <li className='flex gap-1 items-center'>
-                <FaWhatsapp className='w-5 h-5' title='whatsapp' />08123456789
+              <li>
+                <a
+                  href="https://api.whatsapp.com/send?phone=6282120836161&text=Assalamualaikum,%20kak.%20Saya%20ingin%20menghubungi%20Admin%20Gerakan%20Infaq%20Beras%20Tasik%20dan%20menanyakan%20beberapa%20hal."
+                  target='_blank'
+                  className='flex gap-1 items-center hover:underline'
+                >
+                  <FaWhatsapp className='w-5 h-5' title='whatsapp' />+62 821 2083 6161
+                </a>
               </li>
-              <li className='flex gap-1 items-center'>
-                <MdOutlineEmail className='w-5 h-5' title='email' />
-                gerakaninfaqberasemail@example.com
-              </li>
-              <li className='flex gap-1'>
-                <MapPin className='-mt-2 w-10 h-10' />
-                <span>
-                  Perumahan Taman Yasmin 6, Jl. Pinang Merah I Nomer No.70/72, Curugmekar, Kec. Bogor Bar., Kota Bogor, Jawa Barat 16113
-                </span>
+              <li>
+                <a
+                  href="https://www.google.com/maps/dir//Sukamajukidul,+Kec.+Indihiang,+Kab.+Tasikmalaya,+Jawa+Barat+46151/@-7.2868399,108.1057904,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e6f511c69b8ea01:0xaa476dfcff24a26d!2m2!1d108.1881941!2d-7.286837?entry=ttu"
+                  target='_blank'
+                  className='flex gap-1 hover:underline'
+                >
+                  <MapPin className='mt-1 w-5 h-5' />
+                  <span className='w-full'>
+                    Sukamajukidul, Kec. Indihiang, Kab. Tasikmalaya, Jawa Barat 46151
+                  </span>
+                </a>
               </li>
             </ul>
           </div>
           <div className='w-full'>
             <span className='font-semibold text-primary'>Social Media</span>
             <ul className='flex flex-col gap-1 mt-2'>
-              <li className='flex gap-1 items-center'>
-                <FaInstagram /> Instagram: gib.id
+              <li>
+                <a
+                  href="https://www.instagram.com/gib.tasikmalaya"
+                  target='_blank'
+                  className='flex gap-1 items-center hover:underline'
+                >
+                  <FaInstagram /> gib.tasikmalaya
+                </a>
               </li>
-              <li className='flex gap-1 items-center'>
-                <FaTiktok /> TikTok: gib.id
+              <li>
+                <a
+                  href="https://www.tiktok.com/@infaqberastasik"
+                  target='_blank'
+                  className='flex gap-1 items-center hover:underline'
+                >
+                  <FaTiktok /> infaqberastasik
+                </a>
               </li>
-              <li className='flex gap-1 items-center'>
-                <FaFacebook /> Facebook: facebook
+              <li>
+                <a
+                  href="https://www.facebook.com/infaqberastasik"
+                  target='_blank'
+                  className='flex gap-1 items-center hover:underline'
+                >
+                  <FaFacebook /> infaqberastasik
+                </a>
               </li>
             </ul>
           </div>
@@ -57,7 +83,7 @@ const Footer = () => {
       </div>
       <div className="absolute -top-96 -left-16 -z-10 w-[50%] aspect-square bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/15 via-[rgba(255,255,255,0)] to-[rgba(255,255,255,0)] flex justify-center items-center" />
       <div className="absolute -top-16 right-16 -z-10 w-[50%] aspect-square bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/30 via-[rgba(255,255,255,0)] to-[rgba(255,255,255,0)] flex justify-center items-center" />
-    </footer>
+    </footer >
   )
 }
 
