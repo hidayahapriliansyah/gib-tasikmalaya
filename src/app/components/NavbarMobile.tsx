@@ -61,14 +61,14 @@ const NavbarMobile = () => {
         <li className={clsx('hover:border-b-2 hover:border-b-primary', {
           'border-b-2 border-b-primary font-bold': currentPath === 'about'
         })}>
-          <a href="/" className={clsx('text-base', {
+          <a href="/about" className={clsx('text-base', {
             'font-bold  text-primary': currentPath === 'about'
           })}>Tentang</a>
         </li>
         <li className={clsx('hover:border-b-2 hover:border-b-primary', {
           'border-b-2 border-b-primary font-bold': currentPath === 'contact'
         })}>
-          <a href="/" className={clsx('text-base', {
+          <a href="/contact" className={clsx('text-base', {
             'font-bold text-primary': currentPath === 'contact'
           })}>Kontak</a>
         </li>

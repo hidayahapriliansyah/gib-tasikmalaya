@@ -65,7 +65,7 @@ const NavbarDesktop: React.FC = () => {
           </li>
           <li>
             <Link
-              href={'/#'}
+              href={'/about'}
               className={clsx('hover:border-b-2 hover:border-b-primary', {
                 'border-b-2 border-b-primary font-bold text-primary': currentPath === 'about'
               })}
@@ -75,7 +75,7 @@ const NavbarDesktop: React.FC = () => {
           </li>
           <li>
             <Link
-              href={'/#'}
+              href={'/contact'}
               className={clsx('hover:border-b-2 hover:border-b-primary', {
                 'border-b-2 border-b-primary font-bold text-primary': currentPath === 'contact'
               })}
